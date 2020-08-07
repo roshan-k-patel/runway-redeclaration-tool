@@ -1,0 +1,7 @@
+<root>
+    <obstacle>
+        <name>crate</name>
+        <length>10</length>
+        <width>10</width>
+    </obstacle>
+</root>

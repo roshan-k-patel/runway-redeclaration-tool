@@ -1,0 +1,195 @@
+<root>
+	<airport>
+		<name>Heathrow (HW)</name>
+	</airport>
+	<runway>
+		<position>C</position>
+		<bearing>6</bearing>
+		<tora>3660.0</tora>
+		<toda>3660.0</toda>
+		<asda>3660.0</asda>
+		<lda>3000.0</lda>
+		<displaced_threshold>660.0</displaced_threshold>
+		<strip_end>60.0</strip_end>
+		<resa>240.0</resa>
+		<name>06C</name>
+		<runway_airport>Heathrow (HW)</runway_airport>
+	</runway>
+	<runway>
+		<position>C</position>
+		<bearing>6</bearing>
+		<tora>3660.0</tora>
+		<toda>3660.0</toda>
+		<asda>3660.0</asda>
+		<lda>3000.0</lda>
+		<displaced_threshold>660.0</displaced_threshold>
+		<strip_end>60.0</strip_end>
+		<resa>240.0</resa>
+		<name>06C</name>
+		<runway_airport>Heathrow (HW)</runway_airport>
+	</runway>
+	<runway>
+		<position>L</position>
+		<bearing>6</bearing>
+		<tora>5000.0</tora>
+		<toda>5000.0</toda>
+		<asda>5000.0</asda>
+		<lda>4000.0</lda>
+		<displaced_threshold>1000.0</displaced_threshold>
+		<strip_end>60.0</strip_end>
+		<resa>240.0</resa>
+		<name>06L</name>
+		<runway_airport>Heathrow (HW)</runway_airport>
+	</runway>
+	<runway>
+		<position>L</position>
+		<bearing>20</bearing>
+		<tora>5000.0</tora>
+		<toda>5000.0</toda>
+		<asda>5000.0</asda>
+		<lda>4000.0</lda>
+		<displaced_threshold>1000.0</displaced_threshold>
+		<strip_end>60.0</strip_end>
+		<resa>240.0</resa>
+		<name>20L</name>
+		<runway_airport>Heathrow (HW)</runway_airport>
+	</runway>
+	<runway>
+		<position>R</position>
+		<bearing>2</bearing>
+		<tora>5000.0</tora>
+		<toda>5000.0</toda>
+		<asda>5000.0</asda>
+		<lda>4000.0</lda>
+		<displaced_threshold>1000.0</displaced_threshold>
+		<strip_end>60.0</strip_end>
+		<resa>240.0</resa>
+		<name>02R</name>
+		<runway_airport>Heathrow (HW)</runway_airport>
+	</runway>
+	<airport>
+		<name>Gatwick (GW)</name>
+	</airport>
+	<airport>
+		<name>Stansted (ST)</name>
+	</airport>
+	<airport>
+		<name>Heathrow (HW)</name>
+	</airport>
+	<airport>
+		<name>Gatwick (GW)</name>
+	</airport>
+	<airport>
+		<name>Stansted (ST)</name>
+	</airport>
+
+	<obstacle>
+		<height>5.0</height>
+		<name>Standard cargo crate</name>
+	</obstacle>
+	<obstacle>
+		<height>20.0</height>
+		<name>Broken down Boeing 737</name>
+	</obstacle>
+	<obstacle>
+		<height>3.0</height>
+		<name>Forklift</name>
+	</obstacle>
+	<obstacle>
+		<height>25.0</height>
+		<name>Stacked cargo crates</name>
+	</obstacle>
+	<obstacle>
+		<height>15.0</height>
+		<name>Large cargo crate</name>
+	</obstacle>
+	<obstacle>
+		<height>5.0</height>
+		<name>Standard cargo crate</name>
+	</obstacle>
+	<obstacle>
+		<height>20.0</height>
+		<name>Broken down Boeing 737</name>
+	</obstacle>
+	<obstacle>
+		<height>3.0</height>
+		<name>Forklift</name>
+	</obstacle>
+	<obstacle>
+		<height>25.0</height>
+		<name>Stacked cargo crates</name>
+	</obstacle>
+	<obstacle>
+		<height>15.0</height>
+		<name>Large cargo crate</name>
+	</obstacle>
+
+	<plane>
+		<blast_protection>300.0</blast_protection>
+		<ratio>50.0</ratio>
+		<name>Airbus A220</name>
+	</plane>
+	<plane>
+		<blast_protection>300.0</blast_protection>
+		<ratio>50.0</ratio>
+		<name>Airbus A330</name>
+	</plane>
+	<plane>
+		<blast_protection>300.0</blast_protection>
+		<ratio>50.0</ratio>
+		<name>Boeing 737</name>
+	</plane>
+	<plane>
+		<blast_protection>300.0</blast_protection>
+		<ratio>50.0</ratio>
+		<name>Boeing 747</name>
+	</plane>
+	<plane>
+		<blast_protection>300.0</blast_protection>
+		<ratio>50.0</ratio>
+		<name>Boeing 777</name>
+	</plane>
+	<plane>
+		<blast_protection>300.0</blast_protection>
+		<ratio>50.0</ratio>
+		<name>Airbus A220</name>
+	</plane>
+	<plane>
+		<blast_protection>300.0</blast_protection>
+		<ratio>50.0</ratio>
+		<name>Airbus A330</name>
+	</plane>
+	<plane>
+		<blast_protection>300.0</blast_protection>
+		<ratio>50.0</ratio>
+		<name>Boeing 737</name>
+	</plane>
+	<plane>
+		<blast_protection>300.0</blast_protection>
+		<ratio>50.0</ratio>
+		<name>Boeing 747</name>
+	</plane>
+	<plane>
+		<blast_protection>300.0</blast_protection>
+		<ratio>50.0</ratio>
+		<name>Boeing 777</name>
+	</plane>
+
+	<calculation>
+		<calc_plane>Airbus A220</calc_plane>
+		<calc_obstacle>Standard cargo crate</calc_obstacle>
+		<calc_runway>06C</calc_runway>
+		<calc_airport>Heathrow (HW)</calc_airport>
+		<distance_from_threshold>50.0</distance_from_threshold>
+		<distance_from_center_line>50.0</distance_from_center_line>
+	</calculation>
+	<calculation>
+		<calc_plane>Airbus A220</calc_plane>
+		<calc_obstacle>Standard cargo crate</calc_obstacle>
+		<calc_runway>20L</calc_runway>
+		<calc_airport>Heathrow (HW)</calc_airport>
+		<distance_from_threshold>50.0</distance_from_threshold>
+		<distance_from_center_line>50.0</distance_from_center_line>
+	</calculation>
+
+</root>

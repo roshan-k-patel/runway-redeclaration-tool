@@ -1,0 +1,57 @@
+<root>
+    <obstacle>
+        <height>10</height>
+        <name>crate</name>
+    </obstacle>
+    <obstacle>
+        <height>20</height>
+        <name>boulder</name>
+    </obstacle>
+    <plane>
+        <blast_protection>50</blast_protection>
+        <ratio>0.5</ratio>
+        <name>Boeing 747</name>
+    </plane>
+    <obstacle>
+        <height>50</height>
+        <name>Tower</name>
+    </obstacle>
+    <plane>
+        <ratio>0.6</ratio>
+        <blast_protection>30</blast_protection>
+        <name>concord</name>
+    </plane>
+    <airport>
+        <name>Heathrow</name>
+    </airport>
+
+    <airport>
+        <name>Gatwick</name>
+
+    </airport>
+
+    <runway>
+        <position>r</position>
+        <bearing>10</bearing>
+        <tora>10</tora>
+        <toda>10</toda>
+        <asda>10</asda>
+        <lda>10</lda>
+        <displaced_threshold>10</displaced_threshold>
+        <strip_end>10</strip_end>
+        <resa>10</resa>
+        <name>Runway 1</name>
+        <runway_airport>Heathrow</runway_airport>
+    </runway>
+
+    <calculation>
+        <calc_plane>concord</calc_plane>
+        <calc_obstacle>boulder</calc_obstacle>
+        <calc_runway>10r</calc_runway>
+        <calc_airport>Heathrow</calc_airport>
+        <distance_from_threshold>100</distance_from_threshold>
+        <distance_from_center_line>100</distance_from_center_line>
+    </calculation>
+
+
+</root>
